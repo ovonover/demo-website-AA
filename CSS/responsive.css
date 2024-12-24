@@ -1,0 +1,279 @@
+/* Responsive Part */
+
+@media screen and (max-width: 985px) {
+    body{
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none;    /* Firefox */
+        -ms-user-select: none;     /* Internet Explorer/Edge */
+        user-select: none;
+    }
+
+    nav .options-nav{
+        display: none;
+    }
+
+    nav .bars-nav{
+        display: block;
+        font-size: 20px;
+        color: #2E2832;
+        transition: 0.3s;
+    }
+
+    nav .bars-nav:hover{
+        color: #F6F6F5;
+    }
+
+    /* CONTAINER */
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .rec1{
+        border-radius: 20px 20px 5px 20px;
+    }
+
+    /* rec2 */
+
+    .rec2{
+        grid-row: span 1;
+        grid-column: span 1;
+        border-radius: 20px 20px 20px 5px;
+    }
+
+    .rec2 img{
+        width: 310px;
+        height: auto;
+        bottom: 0;
+        left: 170px;
+    }
+
+    .rec2 .circle-pattern2{
+        position: absolute;
+        left: 150px;
+        bottom: 0;
+        transform: scale(70%);
+    }
+
+    .rec2 .title2{
+        position: absolute;
+        top: -15px;
+        left: 15px;
+        font-size: 45px;
+        padding-right: 50px;
+        text-align: left;
+        z-index: 3;
+    }
+
+    /* rec3 */
+
+    .rec3{
+        grid-column: span 2;
+        padding-bottom: -300px;
+        border-radius: 20px;
+    }
+
+    .rec3 .shapes-3{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: scale(130%);
+    }
+
+    /* rec6 */
+
+    .rec6{
+        grid-column: span 2;
+        height: 160px;
+    }
+    
+}
+
+@media screen and (max-width: 431px) {
+    body{
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none;    /* Firefox */
+        -ms-user-select: none;     /* Internet Explorer/Edge */
+        user-select: none;
+    }
+    
+    /* NAVBAR */
+
+    nav .options-nav{
+        display: none;
+    }
+
+    nav .bars-nav{
+        display: block;
+        font-size: 20px;
+        color: #2E2832;
+        transition: 0.3s;
+    }
+
+    nav .bars-nav:hover{
+        color: #F6F6F5;
+    }
+
+    /* CONTAINER */
+
+    .container{
+        display: block;
+    }
+
+    /* EACH RECTANGLE */
+
+    /* rec1 */
+
+    .rec1{
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    .rec1 h3{
+        padding-right: 10px;
+    }
+
+    .rec1 .bio{
+        padding-right: 10px;
+    }
+
+    /* rec 2 */
+
+    .rec2{
+        border-radius: 20px;
+        margin-bottom: 20px;
+        padding: 380px 150px ;
+    }
+
+    .rec2 .circle-pattern2{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: none;
+    }
+
+    .rec2 .title2{
+        position: absolute;
+        top: -0px;
+        left: 0px;
+        font-size: 45px;
+        padding-right: 0px;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .rec2 img{
+        width: 580px;
+        height: auto;
+        bottom: 0;
+        left: -100px;
+    }
+
+    .rec2 .color-size{
+        bottom: -150px;
+        left: -5px;
+    }
+
+    .rec2 .circlerec1{
+        bottom: -190px;
+        left: -60px;
+    } 
+
+    .rec2 .circlerec2{
+        bottom: -230px;
+        left: -110px;
+    }
+
+    .rec2 .circlerec3{
+        bottom: -280px;
+        left: -164px;
+    }
+
+    .rec2 .title2{
+        position: absolute;
+        top: 0;
+        left: 8px;
+        font-size: 58px;
+    }
+
+    /* rec3 */
+
+    .rec3{
+        border-radius: 20px;
+        margin-bottom: 20px;
+        padding: 0 15px;
+        padding-top: 30px;
+        padding-bottom:100px;
+    }
+
+    .rec3{
+        grid-column: span 2;
+        padding-bottom: 100px;
+        border-radius: 20px;
+    }
+
+    .rec3 .shapes-3{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: none;
+    }
+
+    /* rec4 */
+
+    .rec4{
+        padding: 35px 35px 160px 50px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .rec4 img{
+        position: absolute;
+        width: 310px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .rec4 p{
+        padding-right: 20px;
+    }
+
+    /* rec5 */
+
+    .rec5{
+        border-radius: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 160px;
+        z-index: 1;
+    }
+
+    .rec5 img{
+        z-index: -1;
+    }
+
+    .rec5 .text-5{
+        backdrop-filter: blur(50px);
+        width: 88.5%;
+        padding: 4px;
+        border-radius: 6px;
+    }
+
+    /* rec6 */
+
+    .rec6{
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .rec6{
+        grid-column: span 2;
+        height: 100%;
+    }
+
+    .rec6 h4{
+        padding-right: 50px;
+        margin-bottom: 20px;
+    }
+}
